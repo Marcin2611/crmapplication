@@ -26,7 +26,7 @@ import java.util.logging.Logger;
 @EnableWebMvc
 @EnableTransactionManagement
 @ComponentScan("app")
-@PropertySource({"classpath:persistence-mysql.properties"})
+@PropertySource({"classpath:persistence-sql.properties"})
 public class AppConfig {
 
     @Autowired
